@@ -51,7 +51,7 @@
             border: 1px solid #e2e8f0;
             transition: all 0.2s ease;
             position: relative;
-            overflow: hidden;
+            cursor: pointer;
         }
 
         .card:hover {
@@ -80,9 +80,6 @@
             font-size: 0.875rem;
             color: #94a3b8;
         }
-
-        /* Boss Key Notification - Hidden */
-        #status { position: fixed; bottom: 10px; right: 10px; opacity: 0.2; font-size: 10px; }
     </style>
 </head>
 <body>
@@ -95,13 +92,13 @@
     <main class="main-content">
         <div class="grid">
             
-            <a href="basket-random/Basket-Random-JJK/index.html" class="card">
+            <a href="basket-random/index.html" class="card">
                 <span class="badge">PHYSICS</span>
                 <h3>Kinematic Variables Lab</h3>
                 <p>A simulation focused on randomized projectile motion and physics-based collisions.</p>
             </a>
 
-            <a href="#" class="card">
+            <a href="#" class="card" style="opacity: 0.7;">
                 <span class="badge">GEOMETRY</span>
                 <h3>Vector Slope Analysis</h3>
                 <p>Analyzing velocity vectors on varied inclines. Coming soon.</p>
@@ -109,8 +106,6 @@
 
         </div>
     </main>
-
-    <div id="status">Secure Connection Active</div>
 
     <footer>
         &copy; 2026 Academic Research Group
